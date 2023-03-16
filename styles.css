@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+header{
+    user-select: none;
+}
+h1 {
+    display: inline;
+    color: red;
+    font-size: 3em;
+}
+
+span {
+    background-color: rgb(211, 204, 204);
+    font-size: 2em;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items:end;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 77);
+}
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 0.8em;
+    color: aliceblue;
+}
